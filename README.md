@@ -7,6 +7,8 @@ sudo apt install gcc
 ```bash
 gcc -o saida programa.c
 ```
+> [!TIP]
+> `!gcc` executa o último comando do histórico que começa com "gcc".
 
 ## Executando programa
 ```bash
