@@ -18,3 +18,18 @@ gcc -o saida programa.c
 
 ./file
 ```
+
+## Visualizar a saída do último programa executado
+```bash
+echo $?
+```
+
+## Visualizar os códigos hexadecimais de uma string
+```bash
+echo -n string | hd
+```
+
+## Contar a quantidade de caracteres de uma string
+```bash
+echo -n string | wc -c
+```
